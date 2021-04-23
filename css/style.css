@@ -5,11 +5,19 @@
     box-sizing: border-box;
 }
 
+
+
+/* common */
+
 body {
     padding: 10px 250px;
 }
 
-/* classi in comune */
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 
 
@@ -17,8 +25,32 @@ body {
 /* intestazione */
 
 .header {
-    height: 80px;
-    background-color: rgb(219, 78, 219);
+  width:98%;
+  margin:0 auto;
+}
+
+.header-logo {
+    width: 21%;
+    border-right: 1px solid #e5e5e5;
+}
+
+.header-logo img{
+    width: 163px;
+}
+
+.header-menu  {
+    padding: 20px 0;
+}
+
+.header-menu li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.header-menu a {
+    text-decoration: none;
+    color: #838383;
 }
 
 
@@ -92,10 +124,5 @@ body {
 
 
 
-/* clearfix  */
+/* debug */
 
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
