@@ -26,10 +26,8 @@ body {
 
 .main_container_content { 
     float: left;
-    width: 32%;
-    
+    width: 32%;  
 }
-
 
 .main_container_content-image  {
     background-size: cover;
@@ -37,7 +35,6 @@ body {
     background-repeat: no-repeat;
     width: 100%;
     height: 200px;
-
 }
 
 .main-container-text {
@@ -52,8 +49,7 @@ body {
 
 .main-container-text p {
     font-size: 14px;
-    color: #838383;
-    
+    color: #838383; 
 }
 
 .transparent {
@@ -62,11 +58,9 @@ body {
     background-color: #00000038;
 }
 
-
 .main_container_content-texbottom {
-    padding: 15px 0px;
+    padding: 15px 0px 60px 0px;
 }
-
 
 .main_container_content-texbottom img {
     border-radius: 50px;
@@ -82,6 +76,8 @@ body {
 .container-central {
     margin: 0px 20px;
 }
+
+
 
 
 /* intestazione */
@@ -117,6 +113,7 @@ body {
 
 
 
+
 /* articolo */
 
 .article {
@@ -139,11 +136,7 @@ body {
 
 
 
-
 /* header corpo */
-
-
-
 
 .main_container_header {  
     padding: 30px 0px; 
@@ -156,7 +149,6 @@ body {
 .main_container_header p {
     color: #838383;
 }
-
 
 .content-image1 {
     background-image: url(../img/img-1.jpg);
@@ -182,5 +174,4 @@ body {
     background-image: url(../img/img-6.jpg);
 }
 
-
-/* debug */
+        

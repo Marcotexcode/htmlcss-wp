@@ -24,7 +24,12 @@ body {
     color: white;
 }
 
-.main_container_aside-image  {
+.main-container-aside { 
+    float: left;
+    width: 20%;
+}
+
+.main-container-aside-image  {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -42,11 +47,6 @@ body {
 .main-container-text p {
     font-size: 14px;
     color: #838383;
-}
-
-.main_container_aside { 
-    float: left;
-    width: 20%;
 }
 
 .transparent {
@@ -117,15 +117,15 @@ body {
 
 /* header corpo */
 
-.main_container_header {  
+.main-container-header {  
     padding: 30px 0px; 
 }
 
-.main_container_header h2 {
+.main-container-header h2 {
     font-size: 30px;
 }
 
-.main_container_header p {
+.main-container-header p {
     color: #838383;
 }
 
@@ -144,7 +144,7 @@ body {
 
 /* section */
 
-.main_container_section {
+.main-container-section {
     float: left;
     width: calc(100% - 40% -  40px); 
     margin: 0px 20px;
