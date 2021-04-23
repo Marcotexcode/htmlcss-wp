@@ -24,6 +24,14 @@ body {
     color: white;
 }
 
+.main_container_aside-image  {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;  
+}
 
 
 
@@ -58,6 +66,13 @@ body {
     color: #838383;
 }
 
+.transparent {
+    width: 100%;
+    height: 100%;
+    background-color: #00000038;
+    border-radius: 20px;
+}
+
 
 
 
@@ -67,13 +82,9 @@ body {
     height: 500px; 
     background-image: url(../img/banner.jpg);
     border-radius: 20px;
-}
-
-.transparent {
-    width: 100%;
-    height: 500px;
-    background-color: #00000038;
-    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
 }
 
 .article-text {
@@ -114,14 +125,26 @@ body {
 
 
 
-/* aside */
+/* aside sinistro */
 
 .main_container_aside { 
     float: left;
-    margin: 20px 0px;
     width: 20%;
-    height: 470px; /* altezza provvisoria !!!!!!!! */
-    background: skyblue;
+}
+
+.img-asidesx {
+    background-image: url(../img/img-1.jpg);
+}
+
+.main_container_aside-text h3 {
+    font-weight: 100px;
+    font-size: 14px;
+    padding: 10px 0px;
+}
+
+.main_container_aside-text p {
+    font-size: 14px;
+    color: #838383;
 }
 
 
@@ -134,10 +157,16 @@ body {
     width: calc(100% - 40% -  40px); 
     height: 470px; /* altezza provvisoria!!!!!!! */
     background-color: skyblue;
-    margin: 20px 20px;
+    margin: 0px 20px;
 }
 
 
+
+/* aside destro */
+
+.img-asidedx {
+    background-image: url(../img/img-3.jpg);
+}
 
 
 /* footer */
