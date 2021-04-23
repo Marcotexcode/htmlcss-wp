@@ -90,7 +90,6 @@ body {
 /* articolo */
 
 .article {
-    height: 500px; 
     background-image: url(../img/banner.jpg);
     border-radius: 20px;
     background-size: cover;
@@ -100,7 +99,7 @@ body {
 
 .article-text {
     width: 60%;
-    padding: 300px  0px 0px 50px;
+    padding: 300px  0px 50px 50px;
 }
 
 .article-text-top {
