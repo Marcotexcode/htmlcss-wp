@@ -24,6 +24,64 @@ body {
     color: white;
 }
 
+.main_container_content { 
+    float: left;
+    width: 32%;
+    
+}
+
+
+.main_container_content-image  {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+
+}
+
+.main-container-text {
+    padding: 0 10px;
+}
+
+.main-container-text h3 {
+    font-weight: 100px;
+    font-size: 14px;
+    padding: 10px 0px;
+}
+
+.main-container-text p {
+    font-size: 14px;
+    color: #838383;
+    
+}
+
+.transparent {
+    width: 100%;
+    height: 100%;
+    background-color: #00000038;
+}
+
+
+.main_container_content-texbottom {
+    padding: 15px 0px;
+}
+
+
+.main_container_content-texbottom img {
+    border-radius: 50px;
+    vertical-align: middle;
+    margin-right: 10px ;
+}
+
+.bar {
+    margin-right: 5px;
+    border-right: 1px solid #b3b3b3;
+}
+
+.container-central {
+    margin: 0px 20px;
+}
 
 
 /* intestazione */
@@ -57,14 +115,6 @@ body {
     color: #838383;
 }
 
-.transparent {
-    width: 100%;
-    height: 100%;
-    background-color: #00000038;
-    border-radius: 20px;
-}
-
-
 
 
 /* articolo */
@@ -92,6 +142,9 @@ body {
 
 /* header corpo */
 
+
+
+
 .main_container_header {  
     padding: 30px 0px; 
 }
@@ -105,3 +158,29 @@ body {
 }
 
 
+.content-image1 {
+    background-image: url(../img/img-1.jpg);
+}
+
+.content-image2 {
+    background-image: url(../img/img-2.jpg);
+}
+
+.content-image3 {
+    background-image: url(../img/img-3.jpg);
+}
+
+.content-image4 {
+    background-image: url(../img/img-4.jpg);
+}
+
+.content-image5 {
+    background-image: url(../img/img-5.jpg);
+}
+
+.content-image6 {
+    background-image: url(../img/img-6.jpg);
+}
+
+
+/* debug */
