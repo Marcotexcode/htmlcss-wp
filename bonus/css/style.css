@@ -80,6 +80,11 @@ body {
     width: calc(100% - 64% - 4%);
 }
 
+.bold {
+    font-weight: bold;
+    color: black;
+}
+
 
 
 
