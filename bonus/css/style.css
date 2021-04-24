@@ -10,9 +10,13 @@
 
 /* common */
 
-body {
-    padding: 20px 200px;
-    font-family: Arial;;
+body {   
+    font-family: Arial;
+}
+
+.container {
+    width: 70%;
+    margin: 20px auto;
 }
 
 .clearfix:after {
